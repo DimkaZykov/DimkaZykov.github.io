@@ -35,19 +35,19 @@ nav {
 .main {
     width: 100%;
     height: calc(100% - 60px);
-    background: url(../src/img/boy.png) 90% 100%/auto 85% no-repeat , url(../src/img/bg.jpg) center/cover no-repeat;
+    background: url(../src/img/boy.png) 90% 100%/auto 85% no-repeat , url(../src/fonts/bg.jpg) center/cover no-repeat;
     
 }
 
 .title_container {
     float: left;
-    margin: 432px 0px 0px 404px;
+    margin: 232px 0px 0px 254px;
     text-align: center;
     color: #2c384a;
 }
 
 .title_contanier h1 {
-    font-size: 60px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -70,6 +70,276 @@ nav {
 }
 
 .about_me h1 {
-    margin-top: 410px;
+    margin-top: 110px;
     text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d17700;
+}
+
+.about_me img {
+    position: relative;
+    top: 30px;
+    left: 660px;
+}
+
+.about_me p {
+    margin: 55px 300px 0px 300px;
+    text-align: left;
+}
+
+.about_me input {
+    background-image: url(../src/img/icon_download.png); 
+    background-color: transparent; 
+    background-repeat: no-repeat;             
+    cursor: pointer;
+    padding-left: 16px;
+    margin: 35px auto;
+    display: block;
+    border: 2px solid #6f707e;
+    border-radius: 4px;
+}
+
+.services h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d17700;
+    padding-top: 110px;
+}
+
+.services table {
+    margin-top: 135px;
+    text-align: center;
+    width: 1020px;
+    margin-left: calc((100% - 1020px) / 2);
+}
+
+.services th {
+    color: #cf7600;
+}
+
+.services {
+    background: url(../src/fonts/bg2.jpg) center/cover no-repeat;
+    height: 520px;
+    margin-top: 95px;
+}
+
+.cases {
+    margin-top: 105px;
+}
+
+.cases h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d17700;
+}
+
+.cases>p{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.cases img {
+    margin-top: 40px;
+    height: 590px;
+    width: 1170px;
+    margin-left: calc((100% - 1170px) / 2);
+}
+
+.cases table {
+    margin-top: 40px;
+    margin-left: calc((100% - 1170px) / 2);
+    width: 1170;
+}
+
+.cases input {
+    margin-left: calc((100% - 1170px) / 2);
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    background: #63b5ae;
+    color: #fff;
+    font-size: 17px;
+}
+
+.price h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d17700;
+    margin-top: 150px;
+}
+
+.price h2 {
+    margin-top: 100px;
+    margin-left: calc((100% - 550px) / 2);
+}
+
+#type_website {
+    margin-left: calc((100% - 550px) / 2);
+    margin-top: 30px;
+}
+
+#type_design {
+    margin-left: calc((100% - 550px) / 2);
+    margin-top: 30px;
+}
+
+#type_adaptive {
+    margin-left: calc((100% - 550px) / 2);
+    margin-top: 30px;
+}
+
+.price select {
+    height: 55px;
+    width: 550px;
+    background-color: #eeeeee;
+    margin-left: calc((100% - 550px) / 2);
+}
+
+.price h3 {
+    margin-left: calc((100% - 550px) / 2);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.price hr {
+    width: 550px;
+    height: 2px;
+    background-color: #d1d1d1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.statistics h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d17700;
+    padding-top: 100px;
+} 
+
+.statistics table {
+    text-align: center;
+    width: 1020px;
+    margin-left: calc((100% - 1020px) / 2);
+    margin-top: 90px;
+    border-spacing: 30px;
+}
+
+.statistics {
+    background: url(../src/fonts/bg4.jpg) center/cover no-repeat;
+    height: 490px;
+    margin-top: 150px;
+}
+
+.feedbacks h1 {
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d17700;
+}
+
+.feedbacks img {
+    margin-top: 50px;
+    width: 100px;
+    margin-left: calc((100% - 100px) / 2);
+}
+
+.feedbacks p {
+    text-align: center;
+    margin-top: 35px;
+    color: #fff;
+} 
+
+.contacts h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #d17700;
+    color: #fff;
+    
+}
+.contacts {
+    background: url(../src/fonts/bg5.jpg);
+    height: 808px;
+    padding-top: 150px;
+}
+
+.contacts p {
+    text-align: center;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.contacts td {
+    color: #fff;
+}
+
+.contacts table {
+    width: 600px;
+    margin-left: calc((100% - 600px) / 2);
+    text-align: center;
+    margin-top: 45px;
+}
+
+.contacts h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+}
+
+#name {
+    width: 355px;
+    height: 35px;
+    margin-right: 30px;
+    margin-left: calc((100% - 740px) / 2);
+    margin-top: 45px;
+}
+
+#email {
+    width: 355px;
+    height: 35px;
+    margin-top: 45px;
+}
+
+#message {
+    width: 740px;
+    height: 90px;
+    margin-top: 15px;
+    margin-left: calc((100% - 740px) / 2);
+}
+
+#send {
+    width: 125px;
+    height: 45px;
+    margin-left: calc((100% - 125px) / 2);
+    margin-top: 25px;
+    border: 2px solid;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.map {
+    height: 350px;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer {
+    text-align: center;
+    background: #354051;
+    height: 90px;
+    width: 100%;
 }
