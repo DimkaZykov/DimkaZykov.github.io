@@ -6,6 +6,7 @@ nav {
     height: 60px;
     width: 100%;
     background: #344051;
+    position: fixed;
 }
 
 .logo {
@@ -14,6 +15,14 @@ nav {
     line-height: 60px;
     padding-left: 8%;
     float: left;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
+}
+
+main {
+    height: 100%;
+    width: 100%;
 }
 
 .menu {
@@ -28,13 +37,15 @@ nav {
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
-    
-    
+    -webkit-animation: topshift 0.4s ease ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
 }
 
 .main {
     width: 100%;
-    height: calc(100% - 60px);
+    height: 100%;
     background: url(../src/img/boy.png) 90% 100%/auto 85% no-repeat , url(../src/fonts/bg.jpg) center/cover no-repeat;
     
 }
@@ -44,16 +55,23 @@ nav {
     margin: 232px 0px 0px 254px;
     text-align: center;
     color: #2c384a;
+    opacity: 0;
+    -webkit-animation: titlemove 1s ease forwards;
+    -o-animation: titlemove 1s ease forwards;
+    animation: titlemove 1s ease forwards;
+    -webkit-animation-delay: 2.4s;
+    -o-animation-delay: 2.4s;
+    animation-delay: 2.4s;
 }
 
 .title_contanier h1 {
-    font-size: 20px;
+    font-size: 100px;
     font-weight: bold;
 }
 
 .title_container h4 {
     margin-top: 40px;
-    font-size: 22px;
+    font-size: 15px;
     color: #79818d;
 }
 
@@ -113,6 +131,7 @@ nav {
     text-align: center;
     width: 1020px;
     margin-left: calc((100% - 1020px) / 2);
+    border-spacing: 10px;
 }
 
 .services th {
@@ -230,6 +249,10 @@ nav {
     border-spacing: 30px;
 }
 
+#num {
+    font-size: 20px;
+}
+
 .statistics {
     background: url(../src/fonts/bg4.jpg) center/cover no-repeat;
     height: 490px;
@@ -253,7 +276,7 @@ nav {
 .feedbacks p {
     text-align: center;
     margin-top: 35px;
-    color: #fff;
+    color: #111;
 } 
 
 .contacts h1 {
@@ -268,6 +291,8 @@ nav {
     background: url(../src/fonts/bg5.jpg);
     height: 808px;
     padding-top: 150px;
+    margin-top: 90px;
+    width: auto;
 }
 
 .contacts p {
@@ -285,6 +310,7 @@ nav {
     margin-left: calc((100% - 600px) / 2);
     text-align: center;
     margin-top: 45px;
+    border-spacing: 10px;
 }
 
 .contacts h3 {
@@ -329,18 +355,21 @@ nav {
 
 .map {
     height: 350px;
+    z-index: 0;
 }
 
-.footer p {
+footer p {
     color: #fff;
     text-align: center;
     padding-top: 40px;
 }
 
-.footer {
+footer {
     text-align: center;
     background: #354051;
     height: 90px;
     width: 100%;
+    z-index: 2;
 }
+
 
