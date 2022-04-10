@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animation.css">
 </head>
+
 <body>
-    
+   <div class="loader"></div>
     <header>
         <nav>
             <div class="logo">Андрей браун</div>
@@ -43,10 +44,10 @@
         </div>
 
         <div class="services">
-            <h2>ЧТО Я УМЕЮ</h2>
-            <table>
+            <h2 id="info">ЧТО Я УМЕЮ</h2>
+            <table id="info">
                 <tr>
-                    <td><img src="../src/img/icon_nout.png"></td>
+                    <td ><img src="../src/img/icon_nout.png"></td>
                     <td><img src="../src/img/icon_sign.png"></td>
                     <td><img src="../src/img/icon_rocket.png"></td>
                     <td><img src="../src/img/icon_gramophone.png"></td>
@@ -159,9 +160,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</p>
              <table>  
                 <tr>
-                    <td><img src="../src/img/icon_geo.png"></td>
+                    <td><img src="../src/img/icon_geo.png" id="location"></td>
                     <td><img src="../src/img/icon_envelope.png"></td>
-                    <td><img src="../src/img/icon_pipe.png"></td>
+                    <td><img src="../src/img/icon_pipe.png" id="telephone"></td>
                 </tr>
                 <tr>
                     <td>Санкт-Петербург</td>
@@ -187,11 +188,12 @@
         <div class=map>
             <img src="../src/fonts/bg_map.jpg" id="map" width="100%" height="350px">
         </div>
-    </main>
+        
+        <footer>
+            <p><small>Copyright©2021 Андрей Браун. Design by Web</small></p>
+        </footer>
     
-    <footer>
-        <p><small>Copyright©2021 Андрей Браун. Design by Web</small></p>
-    </footer>
+    </main>
     
 </body>
 </html>
