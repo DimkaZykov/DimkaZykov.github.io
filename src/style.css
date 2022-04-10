@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    z-index: 1;
 }
 
 nav {
@@ -64,8 +65,8 @@ main {
     animation-delay: 2.4s;
 }
 
-.title_contanier h1 {
-    font-size: 100px;
+.title_container h1 {
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -289,10 +290,14 @@ main {
 }
 .contacts {
     background: url(../src/fonts/bg5.jpg);
-    height: 808px;
+    height: 100vh;
     padding-top: 150px;
     margin-top: 90px;
-    width: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contacts p {
@@ -369,5 +374,6 @@ footer {
     height: 90px;
     width: 100%;
 }
+
 
 
