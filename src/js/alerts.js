@@ -17,7 +17,7 @@ if (user_type == "визитка" || user_type == "Визитка") {
 } else if (user_type == "лендинг" || user_type == "Лендинг") {
     counter += 5000;
 } else if (user_type == "магазин" || user_type == "Магазин") {
-    cunter += 10000;
+    counter += 10000;
 };
 
 if (user_design == "ретро" || user_design == "Ретро") {
@@ -25,7 +25,7 @@ if (user_design == "ретро" || user_design == "Ретро") {
 } else if (user_design == "классический" || user_design == "Классический") {
     counter += 5000;
 } else if (user_design == "информативный" || user_design == "Информативный") {
-    cunter += 10000;
+    counter += 10000;
 };
 
 if (user_adapt == "резиновый" || user_adapt == "Резиновый") {
@@ -33,7 +33,7 @@ if (user_adapt == "резиновый" || user_adapt == "Резиновый") {
 } else if (user_adapt == "смешанный" || user_adapt == "Смешанный") {
     counter += 5000;
 } else if (user_adapt == "адаптивный" || user_adapt == "Адаптивный") {
-    cunter += 10000;
+    counter += 10000;
 };
 
 alert(counter);
