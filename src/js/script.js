@@ -69,6 +69,7 @@ function open() {
     document.getElementById("trigger").classList.toggle("open");
 }
 
+$('#feedbacks').slick();
 
 var time = 2,
   cc = 1;
