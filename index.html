@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aндрей Браун</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/slick-1.8.1/slick/slick-theme.css">
+
+
+</head>
+
+<body style='overflow-x:hidden;'>
+   <div class="loader"></div>
+    <header>
+        <nav>
+            <div class="logo">Андрей браун</div>
+            
+            <div class = "menu_burger" id="menu_burger">
+                <span class="trigger" id="trigger">
+                  <i class="first_line"></i>
+                  <i class="second_line"></i>
+                  <i class="third_line"></i>
+                </span>
+                <ul id="menub" class="menub">            
+                   <li><a data-goto=".contacts" href="#" class="links">Контакты</a></li>
+                   <li><a data-goto=".feedbacks" href="#" class="links">Отзывы</a></li>
+                   <li><a data-goto=".price"href="#" class="links">Прайс</a></li>
+                   <li><a data-goto=".cases"href="#" class="links">Кейсы</a></li>
+                   <li><a data-goto=".services"href="#" class="links">Услуги</a></li>
+                   <li><a data-goto=".about_me" href="#" class="links">Обо мне</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>            
+                   <li><a data-goto=".contacts" href="#" class="links">Контакты</a></li>
+                   <li><a data-goto=".feedbacks" href="#" class="links">Отзывы</a></li>
+                   <li><a data-goto=".price"href="#" class="links">Прайс</a></li>
+                   <li><a data-goto=".cases"href="#" class="links">Кейсы</a></li>
+                   <li><a data-goto=".services"href="#" class="links">Услуги</a></li>
+                   <li><a data-goto=".about_me" href="#" class="links">Обо мне</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="main">
+            <div class="title_container" id="title_container">
+                <h1>Привет<br>Я Андрей Браун</h1>
+                <h4>Фулл стек веб-разработчик и Android-разработчик</h4>
+                <input type="button" value="Обо мне">
+                <input type="button" value="Мои работы">
+            </div>
+        </section>
+
+        <div class="about_me section" id="about_me">
+            <h1>ОБО МНЕ</h1>
+            <img src="img/grboy.png">
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.<br><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+            <input type="button" value="Cкачать резюме">
+        </div>
+
+        <div class="services section" id="services">
+            <h2 id="info">ЧТО Я УМЕЮ</h2>
+            <div style="overflow: auto;">
+            <table id="info">
+                <tr>
+                    <td><img src="img/icon_nout.png"></td>
+                    <td><img src="img/icon_sign.png"></td>
+                    <td><img src="img/icon_rocket.png"></td>
+                    <td><img src="img/icon_gramophone.png"></td>
+                </tr>
+                <tr>
+                   <th id="special">Веб-дизайн</th>
+                   <th id="special">Разработка</th>
+                   <th id="special">СЕО-Оптимизация</th>
+                   <th id="special">Маркетинг</th>
+                </tr>
+                <tr>    
+                    <td>Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque etiam.</td>
+                    <td>Lorem ipsum dolor sit amet placerat<br>facilisis mi in tempus eleifend<br>pellentesque.</td>
+                    <td>Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque etiam.</td>
+                    <td>Lorem ipsum dolor sit amet placerat<br>facilisis felis mi in tempus eleifend<br>pellentesque natoque.</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+
+        <div class="cases section" id="cases">
+            <h2>КЕЙСЫ</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</p>
+            <img src="img/bg3.jpg">
+            <table>
+                <tr>
+                    <td>CLIENT:</td>
+                    <td>Название проекта</td>
+                </tr>
+                <tr>
+                    <td><small>Какая-то компания</small></td>
+                    <td rowspan="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</td>
+                </tr>
+                <tr>  
+                    <td>WEBSITE:</td>
+                </tr>
+                <tr>
+                    <td><small>http://www.somedomain.com</small></td>
+                </tr>
+            </table>
+
+            <input type="button" id="visit" value="VISIT LIVE SITE">
+        </div>
+
+        <div class="price section" id="price">
+            <h1>Расчет стоимсти</h1>
+            <h2>ТИП САЙТА</h2>
+            <select id="type_website">
+                <option>Выбирите пункт</option>
+                <option value="1000">Визитка</option>
+                <option value="2000">Лендинг</option>
+                <option value="3000">Магазин</option> 
+            </select>
+            <h2>ДИЗАЙН</h2>
+            <select id="type_design">
+                <option>Выберите пункт</option>
+                <option value="1000">Ретро</option>
+                <option value="2000">Классический</option>
+                <option value="3000">Информативный</option>
+            </select>
+            <h2>АДАПТИВНОСТЬ</h2>
+            <select id="type_adaptive">
+                <option>Выберите пункт</option>
+                <option value="1000">Резиновый</option>
+                <option value="2000">Смешанный</option>
+                <option value="3000">Адаптивный</option> 
+            </select>
+            <hr>
+            <p>Сроки</p>
+            <p style="display: inline;">Стоимость</p><p id="cost" style="display: inline;">0</p>
+            <input type="button" id="visit" value="Оставить заявку">
+        </div>
+
+        <div class="statistics section" id="statistics">
+            <h1>НЕМНОГО СТАТИСТИКИ</h1>
+            <div style="overflow: auto;">
+                <div class="stat_table" id="counter"> 
+                  <div class="column">
+                      <div class="icon" id="row"><img src="img/icon_smail.png"></div>       
+                      <div data-num="120" class="number" id="row">0</div>
+                      <div class="text" id="row">СЧАСТЛИВЫХ КЛИЕНТОВ</div>
+                  </div>
+
+                  <div class="column">
+                    <div class="icon" id="row"><img src="img/icon_brackets.png"></div> 
+                    <div data-num="4600" class="number" id="row">0</div>
+                    <div class="text" id="row">ЧАСОВ РАБОТЫ</div>
+                  </div>
+
+                  <div class="column">
+                    <div class="icon" id="row"><img src="img/icon_mark.png"></div> 
+                    <div data-num="340" class="number" id="row">0</div>
+                    <div class="text" id="row">ПРОЕКТОВ ЗАВЕРШЕНО</div>
+                  </div>
+
+                  <div class="column">
+                    <div class="icon" id="row"><img src="img/icon_cup.png"></div> 
+                    <div data-num="23" class="number" id="row">0</div>
+                    <div class="text" id="row">НАГРАД ПОЛУЧЕНО</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <h1 id="h1">ОТЗЫВЫ</h1>
+        
+        <div class="feedbacks" id="feedbacks">
+            
+            <div class="fb">
+                <img src="img/man.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante<br>facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</p>
+                <p><b>Михаил</b>, Ген директор ПАО"Гапром".</p>   
+            </div>
+            
+            <div class="fb">
+                <img src="img/man.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante<br>facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</p>
+                <p><b>Михаил</b>, Ген директор ПАО"Гапром".</p>
+            </div>
+            
+            <div class="fb">
+                <img src="img/man.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante<br>facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</p>
+                <p><b>Михаил</b>, Ген директор ПАО"Гапром".</p>
+            </div>
+        </div>
+
+        <div class="contacts section" id="contacts">
+           
+            <h1>МОИ КОНТАКТЫ</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</p>
+            <div style="overflow-x: auto;">
+            <table>  
+                <tr>
+                    <td><img src="img/icon_geo.png" id="location"></td>
+                    <td><img src="img/icon_envelope.png"></td>
+                    <td><img src="img/icon_pipe.png" id="telephone"></td>
+                </tr>
+                <tr>
+                    <td>Санкт-Петербург</td>
+                    <td>info@companyname.com</td>
+                    <td>+7999 999-99-99</td>
+                </tr>
+                <tr>
+                    <td>Невский проспект11</td>
+                </tr>
+            </table>
+            </div>
+            <h3>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h3>
+            
+            <form>
+                <input type="text" id="name" placeholder="Имя">
+                <input type="text" id="email" placeholder="Email">
+                <br>
+                <textarea type="message" id="message" placeholder="Сообщение"></textarea>
+                <input type="button"  id="send" value="Отправить">
+            </form>
+        </div>
+        
+        <div class=map>
+            <img src="img/bg_map.jpg" id="map" width="100%" height="350px">
+        </div>
+        
+        <div class="eblan">
+            <img src="img/message_pop.jpg" id="pop_open" class="pop_open"style="position: sticky; height: 40px; width: 40px; border-radius: 10px;">
+        </div>
+        
+        <footer>
+            <p><small>Copyright©2021 Андрей Браун. Design by Web</small></p>
+            
+        </footer>
+        
+        <img src="img/message_pop.jpg" id="pop_open" class="pop_open"style="position:fixed; height: 40px; width: 40px; border-radius: 10px; opacity: 0.9;">
+        
+
+        <div class="popup" id="popup">
+
+            <div class="popup_content">
+                <a href="##" class="pop_close" id="pop_close">X</a>
+                    <form action = "php/mail.php" id = "form" method = "POST" name ="form">
+
+                        <label for="formEmaill">Введите свой email для обратной связи</label>
+                        <input id="formEmail" type="text" name="formEmail" class="form_input _req _email" style="display:block; margin-top: 15px; min-width: 60px; min-height: 30px; padding: 3px; border: 1px solid #000; border-radius: 5px;">
+
+                        <label for="formMessagee" id="formMessagee" style="display: block; margin-top: 15px;">Оставьте мне сообщение</label>
+                        <textarea type="message" id="formMessage" name="formMessage" placeholder="Сообщение" style="display: block; margin-top: 15px; max-height: 400px; max-width: 500px; min-width: 300px; min-height: 150px; border: 1px solid #000; border-radius: 5px;"></textarea>
+                        
+                        <button type="submit" class="form_button">Отправить</button>
+                    </form>
+                </div>
+
+        </div>
+            
+        
+    
+    </main>
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/maskedinput.min.js"></script>
+    <script src="php/mail.php"></script>
+	<script src="js/script.js"></script>			
+</body>
+</html>
